@@ -1,0 +1,75 @@
+.movie-details {
+  color: #eceaea;
+  line-height: 1.6;
+}
+
+.poster-wrapper {
+  overflow: hidden;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.poster-wrapper img {
+  transition: transform 0.4s ease;
+}
+
+.poster-wrapper:hover img {
+  transform: scale(1.05);
+}
+
+.movie-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #284ccd;
+}
+
+.movie-meta {
+  font-size: 1rem;
+  color: #666;
+}
+
+.movie-description {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.extra-details p {
+  margin: 0.4rem 0;
+}
+
+.extra-details strong {
+  color: #284ccd; 
+}
+/*Pagination Styles*/
+.pagination .page-item .page-link {
+  background-color: transparent; 
+  border: none; 
+  color: #ffffff; }
+
+.pagination .page-item.active .page-link {
+  background-color: #ffffff22; 
+  border-radius: 6px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #888888; 
+}
+.btn-back {
+  background-color: transparent; 
+  color: #ffffff; 
+  border: 2px solid #ffffff; 
+  padding: 0.5rem 1rem;
+  border-radius: 8px; 
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-back:hover {
+  background-color: #ffffff22;
+  color: #ffffff;
+  transform: translateX(-3px); 
+}
+
